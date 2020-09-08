@@ -1,0 +1,317 @@
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\ILSSIM_608.csprojAssemblyReference.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\MainWindow.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\App.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\ILSSIM_608_MarkupCompile.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\ILSSIM_608_MarkupCompile.lref
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\bin\Debug\ILSSIM_608.exe.config
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\bin\Debug\ILSSIM_608.exe
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\bin\Debug\ILSSIM_608.pdb
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\MainWindow.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\ILSSIM_608.g.resources
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\ILSSIM_608.Properties.Resources.resources
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\ILSSIM_608.csproj.GenerateResource.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\ILSSIM_608.csproj.CoreCompileInputs.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\ILSSIM_608.exe
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608\ILSSIM_608\obj\Debug\ILSSIM_608.pdb
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\ILSSIM_608.exe.config
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\ILSSIM_608.exe
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\ILSSIM_608.pdb
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\MainWindow.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\App.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608_MarkupCompile.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608_MarkupCompile.lref
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\MainWindow.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608.g.resources
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608.Properties.Resources.resources
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608.csproj.GenerateResource.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608.csproj.CoreCompileInputs.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608.exe
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608.pdb
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\StationEquipmentMissionModeling_Window.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\StationEquipmentMissionModeling_Window.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608.exe.config
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\Microsoft.Win32.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\netstandard.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.AppContext.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Collections.Concurrent.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Collections.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Collections.NonGeneric.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Collections.Specialized.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.ComponentModel.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.ComponentModel.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.ComponentModel.TypeConverter.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Console.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Data.Common.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Diagnostics.Contracts.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Diagnostics.Debug.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Diagnostics.Process.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Diagnostics.StackTrace.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Diagnostics.Tools.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Diagnostics.TraceSource.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Diagnostics.Tracing.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Drawing.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Dynamic.Runtime.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Globalization.Calendars.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Globalization.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Globalization.Extensions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.Compression.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.Compression.ZipFile.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.FileSystem.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.FileSystem.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.FileSystem.Watcher.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.IsolatedStorage.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.MemoryMappedFiles.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.Pipes.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Linq.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Linq.Expressions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Linq.Parallel.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Linq.Queryable.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.Http.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.NameResolution.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.NetworkInformation.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.Ping.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.Requests.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.Security.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.Sockets.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.WebHeaderCollection.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.WebSockets.Client.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Net.WebSockets.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.ObjectModel.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Reflection.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Reflection.Extensions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Reflection.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Resources.Reader.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Resources.ResourceManager.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Resources.Writer.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.Extensions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.Handles.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.InteropServices.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.Numerics.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.Serialization.Formatters.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.Serialization.Json.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.Serialization.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.Serialization.Xml.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Security.Claims.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Security.Cryptography.Algorithms.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Security.Cryptography.Csp.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Security.Cryptography.Encoding.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Security.Cryptography.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Security.Principal.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Security.SecureString.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Text.Encoding.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Text.Encoding.Extensions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Text.RegularExpressions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Threading.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Threading.Overlapped.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Threading.Tasks.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Threading.Tasks.Parallel.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Threading.Thread.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Threading.ThreadPool.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Threading.Timer.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.ValueTuple.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Xml.ReaderWriter.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Xml.XDocument.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Xml.XmlDocument.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Xml.XmlSerializer.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Xml.XPath.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Xml.XPath.XDocument.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\BouncyCastle.Crypto.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\EntityFramework.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\EntityFramework.SqlServer.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\Google.Protobuf.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\K4os.Compression.LZ4.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\K4os.Hash.xxHash.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\MySql.Data.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\Renci.SshNet.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Buffers.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Memory.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Numerics.Vectors.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\Ubiety.Dns.Core.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\Zstandard.Net.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\EntityFramework.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\EntityFramework.SqlServer.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\Google.Protobuf.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\K4os.Compression.LZ4.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\K4os.Compression.LZ4.Streams.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\K4os.Hash.xxHash.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\MySql.Data.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\Renci.SshNet.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Buffers.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Memory.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Numerics.Vectors.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608.csproj.CopyComplete
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\Support_OtherProfile_Distribution_Modeling.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\Support_OtherProfile_Distribution_Modeling.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\Lifetime_CascadeUtilization.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\Lifetime_CascadeUtilization.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\LifetimeCorrection_Window.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\LifetimeCorrection_Window.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608_主界面基础框架\ILSSIM_608\obj\Debug\ILSSIM_608.csprojAssemblyReference.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608.exe.config
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\LifetimeCorrection_Window.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\Lifetime_CascadeUtilization.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\Login.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\MainWindow.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\StationEquipmentMissionModeling_Window.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\Support_OtherProfile_Distribution_Modeling.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\App.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608_MarkupCompile.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608_MarkupCompile.lref
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608.exe
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608.pdb
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\ILSSIM_608.exe.config
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\ILSSIM_608.exe
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\ILSSIM_608.pdb
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\Microsoft.Win32.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\netstandard.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.AppContext.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Collections.Concurrent.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Collections.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Collections.NonGeneric.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Collections.Specialized.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.ComponentModel.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.ComponentModel.EventBasedAsync.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.ComponentModel.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.ComponentModel.TypeConverter.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Console.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Data.Common.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Diagnostics.Contracts.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Diagnostics.Debug.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Diagnostics.FileVersionInfo.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Diagnostics.Process.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Diagnostics.StackTrace.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Diagnostics.TextWriterTraceListener.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Diagnostics.Tools.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Diagnostics.TraceSource.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Diagnostics.Tracing.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Drawing.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Dynamic.Runtime.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Globalization.Calendars.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Globalization.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Globalization.Extensions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.Compression.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.Compression.ZipFile.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.FileSystem.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.FileSystem.DriveInfo.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.FileSystem.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.FileSystem.Watcher.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.IsolatedStorage.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.MemoryMappedFiles.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.Pipes.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.IO.UnmanagedMemoryStream.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Linq.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Linq.Expressions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Linq.Parallel.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Linq.Queryable.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.Http.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.NameResolution.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.NetworkInformation.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.Ping.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.Requests.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.Security.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.Sockets.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.WebHeaderCollection.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.WebSockets.Client.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Net.WebSockets.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.ObjectModel.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Reflection.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Reflection.Extensions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Reflection.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Resources.Reader.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Resources.ResourceManager.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Resources.Writer.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.CompilerServices.VisualC.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.Extensions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.Handles.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.InteropServices.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.Numerics.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.Serialization.Formatters.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.Serialization.Json.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.Serialization.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.Serialization.Xml.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Security.Claims.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Security.Cryptography.Algorithms.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Security.Cryptography.Csp.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Security.Cryptography.Encoding.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Security.Cryptography.Primitives.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Security.Principal.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Security.SecureString.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Text.Encoding.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Text.Encoding.Extensions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Text.RegularExpressions.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Threading.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Threading.Overlapped.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Threading.Tasks.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Threading.Tasks.Parallel.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Threading.Thread.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Threading.ThreadPool.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Threading.Timer.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.ValueTuple.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Xml.ReaderWriter.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Xml.XDocument.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Xml.XmlDocument.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Xml.XmlSerializer.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Xml.XPath.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Xml.XPath.XDocument.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\BouncyCastle.Crypto.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\EntityFramework.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\EntityFramework.SqlServer.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\Google.Protobuf.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\K4os.Compression.LZ4.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\K4os.Hash.xxHash.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\MySql.Data.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\Renci.SshNet.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Buffers.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Memory.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Numerics.Vectors.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\Ubiety.Dns.Core.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\Zstandard.Net.dll
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\EntityFramework.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\EntityFramework.SqlServer.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\Google.Protobuf.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\K4os.Compression.LZ4.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\K4os.Compression.LZ4.Streams.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\K4os.Hash.xxHash.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\MySql.Data.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\Renci.SshNet.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Buffers.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Memory.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Numerics.Vectors.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\LifetimeCorrection_Window.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\Lifetime_CascadeUtilization.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\MainWindow.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\StationEquipmentMissionModeling_Window.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\Support_OtherProfile_Distribution_Modeling.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\Login.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608.g.resources
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608.Properties.Resources.resources
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608.csproj.GenerateResource.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608.csproj.CoreCompileInputs.cache
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608.csproj.CopyComplete
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\FRTCorrection_FailureModeGroup.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\FRTCorrection_FailureModeGroup.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ResourceOptimizing_Window.g.cs
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ResourceOptimizing_Window.baml
+G:\综保组项目\20200111 608涡轴发动机\软件\ILSSIM_608 0904_王欣\ILSSIM_608\obj\Debug\ILSSIM_608.csprojAssemblyReference.cache

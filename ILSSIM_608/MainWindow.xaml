@@ -1,0 +1,257 @@
+﻿<Window x:Class="ILSSIM_608.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ILSSIM_608"
+        mc:Ignorable="d"
+        Height="720" Width="1280" WindowStyle="None" Loaded="Window_Loaded" MouseLeftButtonDown="Window_MouseLeftButtonDown" WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style x:Key="DataGridStyle" TargetType="DataGrid">
+            <Setter Property="ColumnHeaderStyle" Value="{DynamicResource ColumnHeaderStyle}"></Setter>
+            <Setter Property="CellStyle" Value="{DynamicResource CellStyle}"></Setter>
+            <Setter Property="RowStyle" Value="{DynamicResource RowStyle}"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="EnableRowVirtualization" Value="False"></Setter>
+            <Setter Property="GridLinesVisibility" Value="None"></Setter>
+            <Setter Property="CanUserAddRows" Value="true"></Setter>
+            <!--在尾行手动添加数据-->
+            <Setter Property="AutoGenerateColumns" Value="true"></Setter>
+            <Setter Property="IsEnabled" Value="True"></Setter>
+            <Setter Property="AlternatingRowBackground" Value="#d6f5f5"></Setter>
+        </Style>
+        <Style x:Key="ColumnHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <Setter Property="BorderBrush" Value="#CBCBCB"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+
+        </Style>
+        <Style x:Key="RowStyle" TargetType="DataGridRow">
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" Value="#F2F2F2"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background"  Value="#FFB7B7B7" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="CellStyle" TargetType="DataGridCell">
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="DataGridCell">
+                        <Border x:Name="Bg" Background="Transparent" BorderThickness="1" UseLayoutRounding="True" BorderBrush="#FFCBCBCB">
+                            <ContentPresenter HorizontalAlignment="Stretch"  VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background"  Value="#d6f5f5" />
+                    <Setter Property="Foreground" Value="#000000" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="MenuItem">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+            <Setter Property="Background" Value="#444444"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="2 0 2 0"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        
+        <Grid Grid.Row="0" Background="#444444">
+            <StackPanel Background="#444444" Orientation="Horizontal" VerticalAlignment="Center">
+                <Image Source="/resource/feiji_4.png" Height="25" Margin="10 0 0 0"/>
+                <TextBlock Text="基于视情维修的涡轴发动机维护保障智能辅助管理决策软件" FontSize="14" Foreground="WhiteSmoke" VerticalAlignment="Center" Margin="6 0 0 0"/>
+            </StackPanel>
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="我的项目" FontFamily="粗体" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Background="#444444" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Name="Btn_Min" Click="Btn_Min_Click" Height="20" Width="40" Background="Transparent" BorderBrush="Transparent"  Margin="0 6 4 0" >
+                    <Image Source="/resource/zuixiaohua.png"/>
+                </Button>
+                <Button Name="Btn_Max" Click="Btn_Max_Click" Height="18" Width="40" Background="Transparent" BorderBrush="Transparent"  Margin="2 2 4 2">
+                    <Image Source="/resource/zuidahua.png"/>
+                </Button>
+                <Button Name="Btn_Close" Click="Btn_Close_Click" Height="20" Width="40" Background="Transparent" BorderBrush="Transparent" Margin="2 2 10 2">
+                    <Image Source="/resource/guanbi.png"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <Menu Grid.Row="1" Background="#444444" >
+            <MenuItem Header="文件(F)" Margin="4 6 0 6">
+                <MenuItem Header="新建">
+                    <MenuItem.Icon>
+                        <Image Source="/resource/xinjian.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="打开">
+                    <MenuItem.Icon>
+                        <Image Source="/resource/dakai.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="保存" >
+                    <MenuItem.Icon>
+                        <Image Source="/resource/baocun.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator BorderThickness="0" />
+                <MenuItem Header="退出">
+                    <MenuItem.Icon>
+                        <Image Source="/resource/tuichu.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="编辑(E)" Foreground="WhiteSmoke"/>
+            <MenuItem Header="项目(P)" Foreground="WhiteSmoke"/>
+            <MenuItem Header="工具(T)" Foreground="WhiteSmoke"/>
+            <MenuItem Header="帮助(H)" Foreground="WhiteSmoke"/>
+        </Menu>
+
+        <Grid Grid.Row="2">
+            <Grid.Background>
+                <ImageBrush ImageSource="resource/直升机1.png"/>
+            </Grid.Background>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Row="0" Grid.Column="0" Name="Border_StationEquipmentMission_Modeling" Height="100" Width="240" CornerRadius="8" BorderBrush="Black" BorderThickness="2" VerticalAlignment="Bottom" Margin="0 0 0 40" Background="#444444">
+                <Button Name="Btn_StationEquipmentMission_Modeling" BorderThickness="0" Background="Transparent" Margin="-1,-1,-1,0" Click="Btn_StationEquipmentMission_Modeling_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="模块一" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="86 0 0 0"/>
+                            <Label Name="Lable_StationEquipmentMission_ModelingFinish" Content="(已完成)" FontSize="14" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                        </StackPanel>
+                        <Line StrokeThickness="1" Stroke="Black" X1="0" X2="240" Margin="-2 0 -2 0"/>
+                        <Label Content="保障组织、保障对象" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 2 0 0"/>
+                        <Label Content="装备任务建模" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 -4 0 0"/>
+                    </StackPanel>
+                </Button>
+            </Border>
+            <Image Grid.Row="0" Grid.Column="1" Source="/resource/youjiantou2.png" Height="100" VerticalAlignment="Bottom" Margin="0 0 0 60"/>
+            <Border Grid.Row="0" Grid.Column="2" Name="Border_FRTCorrection_FailureModeGroup" Height="100" Width="240" CornerRadius="8" BorderBrush="Black" BorderThickness="2" VerticalAlignment="Bottom" Margin="0 0 0 40" Background="#444444">
+                <Button Name="Btn_FRTCorrection_FailureModeGroup" BorderThickness="0" Background="Transparent" Margin="-1,-1,-1,0" Click="Btn_FRTCorrection_FailureModeGroup_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="模块二" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="86 0 0 0"/>
+                            <Label Name="Lable_FRTCorrection_FailureModeGroup_Finish" Content="(已完成)" FontSize="14" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                        </StackPanel>
+                        <Line StrokeThickness="1" Stroke="Black" X1="0" X2="240" Margin="-2 0 -2 0"/>
+                        <Label Content="故障率折算及" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 2 0 0"/>
+                        <Label Content="故障模式组合关系建模" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 -4 0 0"/>
+                    </StackPanel>
+                </Button>
+            </Border>
+            <Image Grid.Row="0" Grid.Column="3" Source="/resource/youjiantou2.png" Height="100" VerticalAlignment="Bottom" Margin="0 0 0 60"/>
+            <Border Grid.Row="0" Grid.Column="4" Name="Border_ResourcePredict_Modeling" Height="100" Width="240" CornerRadius="8" BorderBrush="Black" BorderThickness="2" VerticalAlignment="Bottom" Margin="0 0 0 40" Background="#444444">
+                <Button Name="Btn_ResourcePredict_Modeling" BorderThickness="0" Background="Transparent" Margin="-1,-1,-1,0" Click="Btn_ResourcePredict_Modeling_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="模块三" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="86 0 0 0"/>
+                            <Label Name="Lable_ResourcePredict_Modeling_Finish" Content="(已完成)" FontSize="14" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                        </StackPanel>
+                        <Line StrokeThickness="1" Stroke="Black" X1="0" X2="240" Margin="-2 0 -2 0"/>
+                        <Label Content="成附件、消耗件数量预测" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 2 0 0"/>
+                        <Label Content="及其他资源配置" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 -4 0 0"/>
+                    </StackPanel>
+                </Button>
+            </Border>
+            <Image Grid.Row="0" Grid.Column="5" Source="/resource/youjiantou2.png" Height="100" VerticalAlignment="Bottom" Margin="0 0 0 60"/>
+            <Border Grid.Row="0" Grid.Column="6" Name="Border_EngineLifetimeCorrection" Height="100" Width="240" CornerRadius="8" BorderBrush="Black" BorderThickness="2" VerticalAlignment="Bottom" Margin="0 0 0 40" Background="#444444">
+                <Button Name="Btn_EngineLifetimeCorrection" BorderThickness="0" Background="Transparent" Margin="-1,-1,-1,0" Click="Btn_EngineLifetimeCorrection_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="模块四" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="86 0 0 0"/>
+                            <Label Name="Lable_EngineLifetimeCorrection_Finish" Content="(已完成)" FontSize="14" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                        </StackPanel>
+                        <Line StrokeThickness="1" Stroke="Black" X1="0" X2="240" Margin="-2 0 -2 0"/>
+                        <Label Content="发动机寿命折算" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 2 0 0"/>
+                    </StackPanel>
+                </Button>
+            </Border>
+            <Image Grid.Row="0" Grid.Column="6" Source="/resource/xiajiantou2.png" Width="55" VerticalAlignment="Bottom" Margin="0 0 0 -30"/>
+            <Border Grid.Row="1" Grid.Column="6" Name="Border_Lifetime_CascadeUtilization" Height="100" Width="240" CornerRadius="8" BorderBrush="Black" BorderThickness="2" VerticalAlignment="Top" Margin="0 40 0 0" Background="#444444">
+                <Button Name="Btn_Lifetime_CascadeUtilization" BorderThickness="0" Background="Transparent" Margin="-1,-1,-1,0" Click="Btn_Lifetime_CascadeUtilization_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="模块五" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="86 0 0 0"/>
+                            <Label Name="Lable_Lifetime_CascadeUtilization_Finish" Content="(已完成)" FontSize="14" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                        </StackPanel>
+                        <Line StrokeThickness="1" Stroke="Black" X1="0" X2="240" Margin="-2 0 -2 0"/>
+                        <Label Content="梯次使用配置" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 2 0 0"/>
+                    </StackPanel>
+                </Button>
+            </Border>
+            <Image Grid.Row="1" Grid.Column="5" Source="/resource/zuojiantou2.png" Height="100" VerticalAlignment="Top" Margin="0 60 0 0"/>
+            <Border Grid.Row="1" Grid.Column="4" Name="Border_SupportScheme_Modeling" Height="100" Width="240" CornerRadius="8" BorderBrush="Black" BorderThickness="2" VerticalAlignment="Top" Margin="0 40 0 0" Background="#444444">
+                <Button Name="Btn_SupportScheme_Modeling" BorderThickness="0" Background="Transparent" Margin="-1,-1,-1,0" Click="Btn_SupportScheme_Modeling_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="模块六" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="86 0 0 0"/>
+                            <Label Name="Lable_SupportScheme_Modeling_Finish" Content="(已完成)" FontSize="14" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                        </StackPanel>
+                        <Line StrokeThickness="1" Stroke="Black" X1="0" X2="240" Margin="-2 0 -2 0"/>
+                        <Label Content="保障方案建模" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 2 0 0"/>
+                    </StackPanel>
+                </Button>
+            </Border>
+            <Image Grid.Row="1" Grid.Column="3" Source="/resource/zuojiantou2.png" Height="100" VerticalAlignment="Top" Margin="0 60 0 0"/>
+            <Border Grid.Row="1" Grid.Column="2" Name="Border_StartSIM" Height="100" Width="240" CornerRadius="8" BorderBrush="Black" BorderThickness="2" VerticalAlignment="Top" Margin="0 40 0 0" Background="#444444">
+                <Button Name="Btn_StartSIM" Content="启动仿真" FontSize="22" Foreground="#FFFFFF" BorderThickness="0" Background="Transparent" Margin="-1,-1,-1,0" Click="Btn_StartSIM_Click"/>
+            </Border>
+            <Image Grid.Row="1" Grid.Column="1" Source="/resource/zuojiantou2.png" Height="100" VerticalAlignment="Top" Margin="0 60 0 0"/>
+            <Border Grid.Row="1" Grid.Column="0" Name="Border_ResourceOptimizing" Height="100" Width="240" CornerRadius="8" BorderBrush="Black" BorderThickness="2" VerticalAlignment="Top" Margin="0 40 0 0" Background="#444444">
+                <Button Name="Btn_ResourceOptimizing" BorderThickness="0" Background="Transparent" Margin="-1,-1,-1,0" Click="Btn_ResourceOptimizing_Click">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Stretch">
+                        <StackPanel Orientation="Horizontal">
+                            <Label Content="模块七" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="86 0 0 0"/>
+                            <Label Name="Lable_ResourceOptimizing_Finish" Content="(已完成)" FontSize="14" Foreground="#FFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+                        </StackPanel>
+                        <Line StrokeThickness="1" Stroke="Black" X1="0" X2="240" Margin="-2 0 -2 0"/>
+                        <Label Content="备发备件动态储备优化" FontSize="18" Foreground="#FFFFFF" HorizontalContentAlignment="Center" Margin="0 2 0 0"/>
+                    </StackPanel>
+                </Button>
+            </Border>
+
+
+        </Grid>
+
+        <StackPanel Grid.Row="3" Background="#444444" Orientation="Horizontal">
+            <Image Source="/resource/tishi.png" Height="20" Margin="10 0 0 0"/>
+            <TextBlock Text="提示：" VerticalAlignment="Center" FontSize="14" Foreground="WhiteSmoke" Margin="2 0 0 2"/>
+            <TextBlock Name="TB_Tip" Text="{Binding WindowBotton_TipText, Mode=TwoWay}" VerticalAlignment="Center" FontSize="14" Foreground="WhiteSmoke" Margin="0 0 0 2"/>
+        </StackPanel>
+    </Grid>
+</Window>

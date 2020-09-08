@@ -1,0 +1,97 @@
+﻿<Window x:Class="ILSSIM_608.Lifetime_CascadeUtilization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ILSSIM_608"
+        mc:Ignorable="d"
+        WindowStyle="None" Height="720" Width="1280" WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition />
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="#444444">
+            <StackPanel Background="#444444" Orientation="Horizontal" VerticalAlignment="Center">
+                <Image Source="/resource/feiji_4.png" Height="25" Margin="10 0 0 0"/>
+                <TextBlock Text="基于视情维修的涡轴发动机维护保障智能辅助管理决策软件" FontSize="14" Foreground="WhiteSmoke" VerticalAlignment="Center" Margin="6 0 0 0"/>
+            </StackPanel>
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="梯次使用配置" FontFamily="粗体" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Background="#444444" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Name="Btn_Min" Click="Btn_Min_Click" Height="20" Width="40" Background="Transparent" BorderBrush="Transparent"  Margin="0 6 4 0" >
+                    <Image Source="/resource/zuixiaohua.png"/>
+                </Button>
+                <Button Name="Btn_Max" Click="Btn_Max_Click" Height="18" Width="40" Background="Transparent" BorderBrush="Transparent"  Margin="2 2 4 2">
+                    <Image Source="/resource/zuidahua.png"/>
+                </Button>
+                <Button Name="Btn_Close" Click="Btn_Close_Click" Height="20" Width="40" Background="Transparent" BorderBrush="Transparent" Margin="2 2 10 2">
+                    <Image Source="/resource/guanbi.png"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <Grid Grid.Row="1" >
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="500"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" BorderBrush="#444444" BorderThickness="2">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="36"/>
+                        <RowDefinition Height="0.6*"/>
+                        <RowDefinition Height="0.6*"/>
+                        <RowDefinition Height="0.6*"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Grid.Row="0" Grid.ColumnSpan="2" Content="  梯次使用参数输入" Height="36" VerticalAlignment="Top" Background="#00b2b3" FontSize="18" Foreground="#FFF9F9F9" />
+
+                    <Label Grid.Row="1" Grid.Column="0" Content="梯次数量:" FontSize="18" BorderBrush="White" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0 0 0 20"/>
+                    <TextBox Grid.Row="1" Grid.Column="1" Name="TB_CascadeNum" Height="30" Width="160"  FontSize="18" VerticalContentAlignment="Center" BorderBrush="#8c8c8c" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Bottom" IsReadOnly="True" Margin="0 0 0 20"/>
+                    <Label Grid.Row="2" Grid.Column="0" Content="战备储存寿命:" FontSize="18" BorderBrush="White" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 10 0 0 "/>
+                    <TextBox Grid.Row="2" Grid.Column="1" Name="TB_ZhanBei_ResidualLife" Height="30" Width="160"  FontSize="18" VerticalContentAlignment="Center" BorderBrush="#8c8c8c" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Center" IsReadOnly="True" Margin="0 10 0 0 "/>
+                    <Label Grid.Row="3" Grid.Column="0" Content="停飞检修比:" FontSize="18" BorderBrush="White" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0 0 0 10"/>
+                    <TextBox Grid.Row="3" Grid.Column="1" Name="TB_TinFeiJianXiuBi" Height="30" Width="160"  FontSize="18" VerticalContentAlignment="Center" BorderBrush="#8c8c8c" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Center" IsReadOnly="True" Margin="0 0 0 10"/>
+                    <Label Grid.Row="4" Grid.Column="0" Content="剩余寿命门限值:" FontSize="18" BorderBrush="White" Height="30" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="0 20 0 0"/>
+                    <TextBox Grid.Row="4" Grid.Column="1" Name="TB_limitedResidualLife" Height="30" Width="160"  FontSize="18" VerticalContentAlignment="Center" BorderBrush="#8c8c8c" BorderThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" Margin="0 20 0 0"/>
+
+                </Grid>
+            </Border>
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="36"/>
+                    <RowDefinition/>
+                    <RowDefinition Height="80"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Content="  梯次使用调度结果" Height="36" VerticalAlignment="Top" Background="#00b2b3" FontSize="18" Foreground="#FFF9F9F9" />
+
+                <Button Grid.Row="2" Grid.Column="1" Name="Btn_CloseWindow" Height="38" Width="160" HorizontalAlignment="Center" Click="Btn_CloseWindow_Click">
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="/resource/tuichu.png" Height="22"  Margin="0 0 6 0 "/>
+                        <TextBlock Text="保存并返回" FontSize="20" VerticalAlignment="Center" Margin="0 0 0 0"/>
+                    </StackPanel>
+                </Button>
+
+            </Grid>
+
+        </Grid>
+        <Border Grid.Row="2" BorderBrush="#444444" BorderThickness="2">
+            <StackPanel Grid.Row="2" Background="Transparent" Orientation="Horizontal">
+                <Image Source="/resource/tishi.png" Height="20" Margin="10 0 0 0"/>
+                <TextBlock Text="提示：" VerticalAlignment="Center" FontSize="14" Foreground="Black" Margin="2 0 0 2"/>
+                <TextBlock Name="TB_Tip" Text="{Binding WindowBotton_TipText, Mode=TwoWay}" VerticalAlignment="Center" FontSize="14" Foreground="Black" Margin="0 0 0 2"/>
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>

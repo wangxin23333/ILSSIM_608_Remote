@@ -1,0 +1,472 @@
+﻿<Window x:Class="ILSSIM_608.FRTCorrection_FailureModeGroup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ILSSIM_608"
+        mc:Ignorable="d"
+        Height="720" Width="1280" WindowStyle="None" Loaded="Window_Loaded" WindowStartupLocation="CenterScreen" MouseLeftButtonDown="Window_MouseLeftButtonDown">
+    <Window.Resources>
+        <Style x:Key="DataGridStyle" TargetType="DataGrid">
+            <Setter Property="ColumnHeaderStyle" Value="{DynamicResource ColumnHeaderStyle}"></Setter>
+            <Setter Property="CellStyle" Value="{DynamicResource CellStyle}"></Setter>
+            <Setter Property="RowStyle" Value="{DynamicResource RowStyle}"></Setter>
+            <Setter Property="Background" Value="White"></Setter>
+            <Setter Property="EnableRowVirtualization" Value="False"></Setter>
+            <Setter Property="GridLinesVisibility" Value="None"></Setter>
+            <Setter Property="CanUserAddRows" Value="true"></Setter>
+            <!--在尾行手动添加数据-->
+            <Setter Property="AutoGenerateColumns" Value="true"></Setter>
+            <Setter Property="IsEnabled" Value="True"></Setter>
+            <Setter Property="AlternatingRowBackground" Value="#d6f5f5"></Setter>
+        </Style>
+        <Style x:Key="ColumnHeaderStyle" TargetType="DataGridColumnHeader">
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="BorderThickness" Value="1"></Setter>
+            <Setter Property="BorderBrush" Value="#CBCBCB"></Setter>
+            <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+            <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+
+        </Style>
+        <Style x:Key="RowStyle" TargetType="DataGridRow">
+            <Setter Property="Cursor" Value="Hand"></Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Background" Value="#F2F2F2"/>
+                </Trigger>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background"  Value="#FFB7B7B7" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="CellStyle" TargetType="DataGridCell">
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="FontSize" Value="15"></Setter>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="DataGridCell">
+                        <Border x:Name="Bg" Background="Transparent" BorderThickness="1" UseLayoutRounding="True" BorderBrush="#FFCBCBCB">
+                            <ContentPresenter HorizontalAlignment="Stretch"  VerticalAlignment="Center" />
+                        </Border>
+                    </ControlTemplate>
+
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsSelected" Value="True">
+                    <Setter Property="Background"  Value="#d6f5f5" />
+                    <Setter Property="Foreground" Value="#000000" />
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style TargetType="MenuItem">
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Foreground" Value="WhiteSmoke"/>
+            <Setter Property="Background" Value="#444444"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Margin" Value="2 0 2 0"/>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition/>
+
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0" Background="#444444">
+            <StackPanel Background="#444444" Orientation="Horizontal" VerticalAlignment="Center">
+                <Image Source="/resource/feiji_4.png" Height="25" Margin="10 0 0 0"/>
+                <TextBlock Text="基于视情维修的涡轴发动机维护保障智能辅助管理决策软件" FontSize="14" Foreground="WhiteSmoke" VerticalAlignment="Center" Margin="6 0 0 0"/>
+            </StackPanel>
+            <StackPanel VerticalAlignment="Center">
+                <TextBlock Text="故障率折算及故障模式组合关系模块" FontFamily="粗体" Foreground="WhiteSmoke" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </StackPanel>
+            <StackPanel Background="#444444" Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Name="Btn_Min" Click="Btn_Min_Click" Height="20" Width="40" Background="Transparent" BorderBrush="Transparent"  Margin="0 6 4 0" >
+                    <Image Source="/resource/zuixiaohua.png"/>
+                </Button>
+                <Button Name="Btn_Max" Click="Btn_Max_Click" Height="18" Width="40" Background="Transparent" BorderBrush="Transparent"  Margin="2 2 4 2">
+                    <Image Source="/resource/zuidahua.png"/>
+                </Button>
+                <Button Name="Btn_Close" Click="Btn_Close_Click" Height="20" Width="40" Background="Transparent" BorderBrush="Transparent" Margin="2 2 10 2">
+                    <Image Source="/resource/guanbi.png"/>
+                </Button>
+            </StackPanel>
+        </Grid>
+
+        <Menu Grid.Row="1" Background="#444444" >
+            <MenuItem Header="文件(F)" Margin="4 6 0 6">
+                <MenuItem Header="新建">
+                    <MenuItem.Icon>
+                        <Image Source="/resource/xinjian.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="打开">
+                    <MenuItem.Icon>
+                        <Image Source="/resource/dakai.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="保存" >
+                    <MenuItem.Icon>
+                        <Image Source="/resource/baocun.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator BorderThickness="0" />
+                <MenuItem Header="退出">
+                    <MenuItem.Icon>
+                        <Image Source="/resource/tuichu.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="编辑(E)" Foreground="WhiteSmoke"/>
+            <MenuItem Header="项目(P)" Foreground="WhiteSmoke"/>
+            <MenuItem Header="工具(T)" Foreground="WhiteSmoke"/>
+            <MenuItem Header="帮助(H)" Foreground="WhiteSmoke"/>
+        </Menu>
+
+        <TabControl Grid.Row="2" Name="tabControl_FAR" TabStripPlacement="Left" >
+
+            <TabControl Name="TabControl_FailureRateBasePara" TabStripPlacement="Top" Margin="-16,-4,16,4" >
+                <TabItem Height="28" Margin="0,-1,-14,1">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/resource/beijian1.png" Height="20" Margin="0 0 8 0"/>
+                            <TextBlock Text="默认参数设定" FontSize="16" Margin="6 0 0 0"/>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="85*"/>
+                            <ColumnDefinition Width="15*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition Height="120"/>
+                        </Grid.RowDefinitions>
+                        <!--<Grid Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Button Name="Btn_Edit_FailureRateBasePara" VerticalAlignment="Bottom"  Background="#FFD9F3F3" Margin="33,0,33,45" Height="38" Width="130" Click="Btn_Edit_FailureRateBasePara_Click">
+                                -->
+                        <!--Click="Btn_Edit_FailureRateBasePara_Click"-->
+                        <!--
+                                <StackPanel Orientation="Horizontal">
+                                    <Image Source="/resource/bianji.png" Height="22" Margin="0 2 0 0"/>
+                                    <TextBlock Text="修改默认参数" FontSize="14" VerticalAlignment="Center" Margin="4 2 0 0"/>
+                                </StackPanel>
+                            </Button>-->
+                        <Button Grid.Row="0" Grid.Column="1" Name="Btn_Save_FailureRateBasePara" VerticalAlignment="Center" Height="38" Width="130" Click="Btn_Save_FailureRateBasePara_Click">
+                            <!--Click="Btn_Save_FailureRateBasePara_Click"-->
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="resource/baocun1.png" Height="20"  Margin="0 0 6 0 "/>
+                                <TextBlock Text="保存" FontSize="14" VerticalAlignment="Center" Margin="4 2 0 0"/>
+                            </StackPanel>
+                        </Button>
+                        <!--</Grid>-->
+
+
+
+                        <Image Grid.Row="1" Source="/resource/tishi.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="38" RenderTransformOrigin="-7.423,0.304" Margin="35,0,0,0"/>
+                        <Label Grid.Row="1" Grid.Column="0" Content="提示：" FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Center" Height="38"  Width="84" Margin="80,0,0,0"/>
+                        <Label Grid.Row="1" Grid.Column="0" Content="请确定默认参数，如需修改某项参数请直接点击后进行编辑，所有参数修改完毕后点击'修改默认数据'按钮。&#xA;点击保存进入故障率折算选项卡。若无需更改则直接点击进入故障率折算选项卡。" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="160,0,0,0" />
+                        <Border Grid.Row="0" Grid.Column="0" BorderBrush="#444444" BorderThickness="1">
+                            <TabControl Name="TabItema_Spare" Grid.Row="0" Grid.Column="0" TabStripPlacement="Top" VerticalAlignment="Top" Padding="0">
+                                <TabItem Height="28" >
+                                    <TabItem.Header>
+                                        <StackPanel Orientation="Horizontal" >
+                                            <Image Source="/resource/fangan.png" Height="20" VerticalAlignment="Center"/>
+                                            <TextBlock Text="温度、湿度参数" FontSize="16"/>
+                                        </StackPanel>
+                                    </TabItem.Header>
+
+                                    <DataGrid Grid.Row="0" Grid.Column="0" Name="DataTable_TemperatureHumidity"  IsReadOnly="False" CanUserAddRows="False" AutoGenerateColumns="False" FontSize="16" >
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn  Header="任务地区"  Binding="{Binding MAREA}" IsReadOnly="False" Width="*" />
+                                            <DataGridTextColumn  Header="季节"  Binding="{Binding MSEA}" IsReadOnly="False" Width="*" />
+                                            <DataGridTextColumn  Header="默认温度参数TEMP"  Binding="{Binding TEMP}" IsReadOnly="False" Width="*" />
+                                            <DataGridTextColumn  Header="默认湿度参数HUMP"  Binding="{Binding HUMP}" IsReadOnly="False" Width="*" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </TabItem>
+                                <TabItem Height="28" Width="120">
+                                    <TabItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/resource/fangan.png" Height="20" VerticalAlignment="Center" />
+                                            <TextBlock Text="沙尘参数" FontSize="16"/>
+                                        </StackPanel>
+                                    </TabItem.Header>
+                                    <DataGrid  Name="DataTable_Desert" ItemsSource="{Binding}" HorizontalContentAlignment="Center" IsReadOnly="False" CanUserAddRows="False" AutoGenerateColumns="False"   FontSize="16" Margin="0,0,0,0">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn  Header="是否处于沙漠"  Binding="{Binding DES}" IsReadOnly="False" Width="*" CellStyle="{DynamicResource CellStyle}" />
+                                            <DataGridTextColumn  Header="是否有沙尘天气"  Binding="{Binding SDU}" IsReadOnly="False" Width="*" />
+                                            <DataGridTextColumn  Header="默认沙尘参数DUP"  Binding="{Binding DUP}" IsReadOnly="False" Width="*" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </TabItem>
+                                <TabItem Height="28" >
+                                    <TabItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/resource/fangan.png" Height="20" VerticalAlignment="Center" />
+                                            <TextBlock Text="太阳辐射参数" FontSize="16" />
+                                        </StackPanel>
+                                    </TabItem.Header>
+                                    <DataGrid  Name="DataTable_Plateau" ItemsSource="{Binding}" HorizontalContentAlignment="Center" IsReadOnly="False" CanUserAddRows="False" AutoGenerateColumns="False" FontSize="16" Margin="0,0,0,0">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn  Header="是否处于高原"  Binding="{Binding PLA}" IsReadOnly="False" Width="*" CellStyle="{DynamicResource CellStyle}" />
+                                            <DataGridTextColumn  Header="季节"  Binding="{Binding MSEA}" IsReadOnly="False" Width="*" />
+                                            <DataGridTextColumn  Header="默认太阳辐射参数SRP"  Binding="{Binding SRP}" IsReadOnly="False" Width="*" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </TabItem>
+                                <TabItem Height="28">
+                                    <TabItem.Header>
+                                        <StackPanel Orientation="Horizontal">
+                                            <Image Source="/resource/fangan.png" Height="20" VerticalAlignment="Center"/>
+                                            <TextBlock Text="大气腐蚀参数" FontSize="16"/>
+                                        </StackPanel>
+                                    </TabItem.Header>
+                                    <DataGrid  Name="DataTable_Atomsphere" ItemsSource="{Binding}" HorizontalContentAlignment="Stretch" IsReadOnly="False" CanUserAddRows="False" AutoGenerateColumns="False" FontSize="16" Margin="0,0,0,0" VerticalContentAlignment="Stretch">
+                                        <DataGrid.Columns>
+                                            <DataGridTextColumn  Header="大气环境"  Binding="{Binding ATE}" IsReadOnly="False" Width="*" CellStyle="{DynamicResource CellStyle}" />
+                                            <DataGridTextColumn  Header="默认大气腐蚀参数ACP"  Binding="{Binding ACP}" IsReadOnly="False" Width="*" />
+                                        </DataGrid.Columns>
+                                    </DataGrid>
+                                </TabItem>
+
+                            </TabControl>
+
+                        </Border>
+                    </Grid>
+                </TabItem>
+                <TabItem Height="28" Margin="15,0,-33,0">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/resource/shebei.png" Height="20" RenderTransformOrigin="-0.025,0.2" />
+                            <TextBlock Text="故障率折算" FontSize="16" Margin="4 0 0 0"/>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <StackPanel>
+                        <Border BorderBrush="#00b2b3" BorderThickness="2" Height="282">
+                            <StackPanel>
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                </Grid>
+                                <Label Content="    设置任务环境信息" FontSize="18" Background="#00b2b3" Foreground="#FFF9F9F9"/>
+                                <Grid Height="240">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                        <RowDefinition/>
+                                    </Grid.RowDefinitions>
+                                    <Grid Grid.Row="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label  Grid.Column="0" Content="任务标识：" FontSize="18" BorderBrush="White" Height="30" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,0,0,0"/>
+                                        <ComboBox  Grid.Column="1" Name="Combo_BATCH_MTID" FontSize="18" Height="30" HorizontalAlignment="Left" Width="140"   Margin="0,0,0,0" VerticalAlignment="Center" SelectionChanged="Combo_MTID_SelectionChanged"/>
+                                        <!--<Button  x:Name="Btn_CheckSave" HorizontalAlignment="Right" VerticalAlignment="Center" Grid.Column="2" Height="38" Width="180" Click="Btn_CheckSave_Click" Background="White" Margin="0,0,40,0" >
+                                            <StackPanel Orientation="Horizontal">
+                                                <Image Source="resource/baocun1.png" Height="25"  Margin="0 0 6 0 "/>
+                                                <TextBlock Text="保存任务信息" FontSize="18" Margin="4 2 0 0"/>
+                                            </StackPanel>
+                                        </Button>-->
+                                        <Button x:Name="Btn_Cal_FailureRate" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#CEEBEF" Grid.Column="2" Height="38" Width="140" Margin="00,0,0,0" Click="Btn_Cal_FailureRate_Click">
+
+                                            <StackPanel Orientation="Horizontal">
+                                                <Image Source="/resource/jisuan.png" Height="28"  Margin="0 0 6 0 "/>
+                                                <TextBlock Text="计算" FontSize="18" Margin="4 2 0 0"/>
+                                            </StackPanel>
+                                        </Button>
+
+                                    </Grid>
+
+                                    <Grid Grid.Row="1">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition />
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Grid.Column="0" Content="任务执行地区：" FontSize="18" BorderBrush="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="40,0,0,0"/>
+                                        <ComboBox Grid.Column="1" x:Name="Combo_MAREA" FontSize="18" HorizontalAlignment="Left" Width="140" Margin="10,15,0,10"/>
+                                        <Label Grid.Column="2" Content="任务执行季节：" FontSize="18" BorderBrush="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="40,0,0,0"/>
+                                        <ComboBox Grid.Column="3" x:Name="Combo_MSEA" FontSize="18" Height="30" HorizontalAlignment="Left" Width="140"   Margin="10,20,0,10" />
+                                        <Label  Grid.Column="4" Content="是否处于沙漠：" FontSize="18" BorderBrush="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="40,0,0,0"/>
+                                        <ComboBox Grid.Column="5" x:Name="Combo_DES" FontSize="15" Height="30" HorizontalAlignment="Left" Width="140" Margin="10,10,0,20"/>
+
+                                    </Grid>
+                                    <Grid Grid.Row="2">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition />
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Grid.Column="0" Content="是否有沙尘天气：" FontSize="18" BorderBrush="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="40,0,0,0"/>
+                                        <ComboBox  Grid.Column="1" x:Name="Combo_SDU" FontSize="15" Height="30" HorizontalAlignment="Left" Width="140" Margin="10,10,0,20"/>
+                                        <Label Grid.Column="2" Content="是否处于高原：" FontSize="18" BorderBrush="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="40,0,0,0"/>
+                                        <ComboBox  Grid.Column="3" x:Name="Combo_PLA" FontSize="15" Height="30" HorizontalAlignment="Left" Width="140" Margin="10,20,0,10"/>
+                                        <Label  Grid.Column="4" Content="大气环境：" FontSize="18" BorderBrush="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="40,0,0,0"/>
+                                        <ComboBox  Grid.Column="5" x:Name="Combo_ATE" FontSize="15" Height="30" HorizontalAlignment="Left" Width="140" Margin="10,10,0,20" SelectionChanged="Combo_ATE_SelectionChanged"/>
+                                    </Grid>
+                                    <Grid Grid.Row="3">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition />
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                            <ColumnDefinition/>
+                                        </Grid.ColumnDefinitions>
+                                        <Label Grid.Column="0" Content="温度参数：" FontSize="18" BorderBrush="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="20,0,0,0"/>
+                                        <TextBox  x:Name="TB_TEMP" Height="30" BorderBrush="#8c8c8c" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="15" Width="80"  Margin="0,0,10,0" />
+                                        <Label Grid.Column="1" Content="湿度参数：" FontSize="18" BorderBrush="White" Height="32" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="20,0,0,0"/>
+                                        <TextBox Grid.Column="1" x:Name="TB_HUMP" Height="30" BorderBrush="#8c8c8c" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="15" Width="80"  Margin="0,0,10,0" />
+                                        <Label  Grid.Column="2" Content="沙尘参数：" FontSize="18" BorderBrush="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="20,0,0,0"/>
+                                        <TextBox Grid.Column="2" x:Name="TB_DUP" BorderBrush="#8c8c8c" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="15" Width="80"  Margin="0,0,10,0" />
+                                        <Label Grid.Column="3" Content="太阳辐射参数：" FontSize="18" BorderBrush="White" Height="30" HorizontalContentAlignment="Center" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="20,0,0,0"/>
+                                        <TextBox Grid.Column="3" x:Name="TB_SRP" Height="30" BorderBrush="#8c8c8c" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="15" Width="80"  Margin="0,0,10,0" />
+                                        <Label Grid.Column="4" Content="大气腐蚀参数：" FontSize="18" BorderBrush="White" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"  Margin="20,0,0,0" />
+                                        <TextBox Grid.Column="5" x:Name="TB_ACP" Height="30" BorderBrush="#8c8c8c" BorderThickness="1" HorizontalAlignment="Right" VerticalAlignment="Center" FontSize="15" Width="80"  Margin="0,0,10,0" />
+                                    </Grid>
+                                </Grid>
+                            </StackPanel>
+
+
+                        </Border>
+                        <Border BorderBrush="#00b2b3" BorderThickness="2" Height="220" >
+                            <StackPanel>
+                                <Label Content="    产品信息表" Background="#00b2b3" FontSize="18" Foreground="#FFF9F9F9"  BorderThickness="2" Margin="-2 -2 -2 0"/>
+                                <DataGrid  x:Name="DataGrid_FailureRateInformation" ItemsSource="{Binding}" AutoGenerateColumns="False" Loaded="DataGrid_FailureRateInformation_Loaded" FontSize="16" Height="180">
+                                    <DataGrid.Columns>
+                                        <DataGridTextColumn  Header="产品标识"  Binding="{Binding IID}" IsReadOnly="False" Width="120"/>
+                                        <DataGridTextColumn  Header="任务标识"  Binding="{Binding MTID}" IsReadOnly="False" Width="120" />
+                                        <DataGridTextColumn  Header="折算系数"  Binding="{Binding CFAR}" IsReadOnly="False" Width="200" />
+                                        <DataGridTextColumn  Header="故障率均值"  Binding="{Binding MFAR}" IsReadOnly="False" Width="200" />
+                                    </DataGrid.Columns>
+                                </DataGrid>
+
+                                <!--<Label Grid.Column="1" Content="批量设置形参：" FontSize="18" BorderBrush="White" Height="30" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="19,25,0,25"/>
+                                    <TextBox Grid.Column="1" Name="TB_SHP" FontSize="15" Height="30" HorizontalAlignment="Right" Width="140" Margin="0,0,10,0" VerticalAlignment="Center" TextChanged="TB_SHP_TextChanged"  />
+                                    <Label Grid.Column="2" Content="批量设置尺参：" FontSize="18" BorderBrush="White" Height="30" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20,0,0,0"/>
+                                    <TextBox Grid.Column="2" Name="TB_SCP" FontSize="15" Height="30" HorizontalAlignment="Right" Width="140" Margin="0,0,10,0" VerticalAlignment="Center"  ToolTip="尺参应大于0.5" TextChanged="TB_SCP_TextChanged"/>-->
+
+                                <!--AutoGeneratingColumn="DataGrid_FailureRateInformation_AutoGeneratingColumn"-->
+
+
+                            </StackPanel>
+
+                        </Border>
+                        <Grid Height="100">
+                            <Image  Source="/resource/tishi.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="38" RenderTransformOrigin="-7.423,0.304" Margin="35,0,0,0"/>
+                            <Label  Content="提示：" FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Center" Height="38"  Width="84" Margin="80,0,0,0"/>
+                            <Label Content="请先设置任务环境信息，点击'任务标识下拉框'选择任务后，依次在下面六个下拉框选择该任务对应环境信息。&#xD;&#xA;设置完成一项任务标识后在'任务标识下拉框'继续选择下一任务，重复上述操作。&#xD;&#xA;所有任务环境信息设置完毕后方可点击'计算'按钮进行计算。计算结果将显示在'产品故障率表'中" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="160,0,0,0" />
+
+                        </Grid>
+                    </StackPanel>
+
+                </TabItem>
+                <TabItem Height="28" Margin="35,0,-57,0">
+                    <TabItem.Header>
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="/resource/shebei.png" Height="20" RenderTransformOrigin="-0.025,0.2" />
+                            <TextBlock Text="故障模式组合" FontSize="16" Margin="4 0 0 0"/>
+                        </StackPanel>
+                    </TabItem.Header>
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="100"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Border BorderBrush="#00b2b3" BorderThickness="2" >
+                        </Border>
+                        <Border Grid.Row="0" Grid.Column="1" BorderBrush="#00b2b3" BorderThickness="2" >
+                        </Border>
+                        <Grid Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="6*"/>
+                                <RowDefinition Height="59*"/>
+                            </Grid.RowDefinitions>
+                            <Label Content="    产品更换概率信息表" Background="#00b2b3" FontSize="18" Foreground="#FFF9F9F9" BorderBrush="Aqua" BorderThickness="2" Grid.ColumnSpan="2"/>
+                            <DataGrid  x:Name="DataGrid_MaintenanceProbabilityInformation" HorizontalContentAlignment="Center" FontSize="16" Grid.Row="1" Background="White" Loaded="DataGrid_MaintenanceProbabilityInformation_Loaded" SelectionChanged="DataGrid_MaintenanceProbabilityInformation_SelectionChanged"/>
+                            <!--<DataGrid.Columns>
+                                    <DataGridTextColumn  Header="产品标识"  Binding="{Binding IID}" IsReadOnly="False" Width="*" CellStyle="{DynamicResource CellStyle}" />
+                                    <DataGridTextColumn  Header="功能说明"  Binding="{Binding AF}" IsReadOnly="False" Width="*" />
+                                    <DataGridTextColumn  Header="故障检测方式"  Binding="{Binding FDM}" IsReadOnly="False" Width="*" />
+                                    <DataGridTextColumn  Header="更换概率"  Binding="{Binding OTH}" IsReadOnly="False" Width="*" />
+                                </DataGrid.Columns>
+                            </DataGrid>-->
+                        </Grid>
+
+
+                        <Grid Grid.Column="1" Grid.Row="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="6*"/>
+                                <RowDefinition Height="59*"/>
+                            </Grid.RowDefinitions>
+                            <Label  Content="   产品故障模式信息表" Background="#00b2b3" FontSize="18" Foreground="#FFF9F9F9" BorderBrush="Aqua" BorderThickness="2"/>
+
+                            <DataGrid  Grid.Row="1" x:Name="DataGrid_FailureMode" FontSize="16" Background="White" AutoGeneratingColumn="DataGrid_FailureMode_AutoGeneratingColumn" Style="{StaticResource DataGridStyle}"/>
+
+                            <!--<DataGrid.Columns>
+                                    <DataGridTextColumn  Header="故障模式"  Binding="{Binding AFM}" IsReadOnly="False" Width="*" CellStyle="{DynamicResource CellStyle}" />
+                                    <DataGridTextColumn  Header="故障模式频数比"  Binding="{Binding FMFR}" IsReadOnly="False" Width="*" />
+                                    <DataGridTextColumn  Header="影响强度"  Binding="{Binding INI}" IsReadOnly="False" Width="*" />
+                                    <DataGridTextColumn  Header="维修方式"  Binding="{Binding PLA}" IsReadOnly="False" Width="*" />
+                                </DataGrid.Columns>
+                            </DataGrid>-->
+                        </Grid>
+                        <Button x:Name="Btn_Save_FailureMode" Grid.Column="0" Grid.Row="1" Height="38" Width="130" VerticalAlignment="Center" HorizontalAlignment="Right" Margin="0,6,45,6">
+                            <!--Click="Btn_Save_FailureMode_Click"-->
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="resource/baocun1.png" Height="25"  Margin="0 0 6 0 "/>
+                                <TextBlock Text="保存" FontSize="18" Margin="4 2 0 0"/>
+                            </StackPanel>
+                        </Button>
+                        <Button x:Name="Btn_Cal_MaintenanceProbability" Background="#CEEBEF" Grid.Column="1" Grid.Row="1"  Height="38" Width="130" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="45,6,0,6" Click="Btn_Cal_MaintenanceProbability_Click">
+                            <!--Click="Btn_Cal_MaintenanceProbability_Click"-->
+                            <StackPanel Orientation="Horizontal">
+                                <Image Source="/resource/jisuan.png" Height="28"  Margin="0 0 6 0 "/>
+                                <TextBlock Text="计算" FontSize="18" Margin="4 2 0 0"/>
+                            </StackPanel>
+                        </Button>
+
+                        <Image Grid.Row="2" Source="/resource/tishi.png" HorizontalAlignment="Left" VerticalAlignment="Center" Height="38" RenderTransformOrigin="-7.423,0.304" Margin="35,0,0,0"/>
+                        <Label Grid.Row="2" Grid.Column="0" Content="提示：" FontSize="25" HorizontalAlignment="Left" VerticalAlignment="Center" Height="38"  Width="84" Margin="80,0,0,0"/>
+                        <Label Grid.Row="2" Grid.Column="0" Content="请点击产品标识依次输入对应的故障模式表格，全部输入完毕后点击保存。&#xA;保存后点击计算，计算结果对应显示在产品更换概率表格'更换概率'列。" FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="160,0,0,0" Grid.ColumnSpan="2"/>
+
+                    </Grid>
+                </TabItem>
+
+
+            </TabControl>
+
+        </TabControl>
+
+
+
+    </Grid>
+</Window>

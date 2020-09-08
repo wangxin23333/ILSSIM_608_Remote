@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ILSSIM_608", "ILSSIM_608\ILSSIM_608.csproj", "{EF5A245A-A9AA-4170-B690-5FC0D04437DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF5A245A-A9AA-4170-B690-5FC0D04437DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF5A245A-A9AA-4170-B690-5FC0D04437DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF5A245A-A9AA-4170-B690-5FC0D04437DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF5A245A-A9AA-4170-B690-5FC0D04437DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2E4F43F-B15F-4908-8396-CD3F43D78A02}
+	EndGlobalSection
+EndGlobal
